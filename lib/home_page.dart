@@ -14,6 +14,7 @@ class _HomepageState extends State<Homepage> {
         centerTitle: true,
         title: Text('TEEN WOLF'),
       ),
+      drawer: Drawer(),
       body: MaterialApp(
           debugShowCheckedModeBanner: false,
           home: Material(

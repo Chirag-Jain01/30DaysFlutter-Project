@@ -12,7 +12,7 @@ class _HomepageState extends State<Homepage> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text('TEEN WOLF'),
+        title: Text('TEEN-WOLF'),
       ),
       drawer: Drawer(),
       body: MaterialApp(

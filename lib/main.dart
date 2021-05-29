@@ -18,13 +18,13 @@ class _MyAppState extends State<MyApp> {
       themeMode: ThemeMode.light,
       theme: ThemeData(
         primarySwatch: Colors.red,
-      ),
+       ),
       darkTheme: ThemeData(brightness: Brightness.dark),
       debugShowCheckedModeBanner: false,
       routes: {
-        '/a': (context) => Homepage(), 
+        '/a': (context) => Homepage(),
         '/': (context) => LoginPage(),
-        },
+      },
     );
   }
 }
